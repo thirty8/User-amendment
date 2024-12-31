@@ -1,0 +1,45 @@
+report.css
+
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  
+  .account-details {
+    margin-bottom: 40px;
+  }
+  
+  .account-details p {
+    margin: 5px 0;
+  }
+  
+ 
+  .closure-details {
+    margin-bottom: 40px;
+  }
+  
+  .closure-details p {
+    margin: 5px 0;
+  }
+  
+ 
+  .instruction {
+    margin-bottom: 20px;
+  }
+  
+  .signature {
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  

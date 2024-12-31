@@ -1,0 +1,1026 @@
+{
+  "Name": "Report",
+  "Width": "0in",
+  "Layers": [{ "Name": "default" }],
+  "CustomProperties": [
+    { "Name": "DisplayType", "Value": "Page" },
+    { "Name": "SizeType", "Value": "Default" },
+    { "Name": "PaperOrientation", "Value": "Portrait" }
+  ],
+  "Page": {
+    "PageWidth": "8.5in",
+    "PageHeight": "11in",
+    "RightMargin": "0in",
+    "LeftMargin": "0in",
+    "TopMargin": "0in",
+    "BottomMargin": "0in",
+    "Columns": 1,
+    "ColumnSpacing": "0.5in"
+  },
+  "DataSources": [
+    {
+      "Name": "Account_closure_confirmation_report",
+      "ConnectionProperties": {
+        "DataProvider": "JSON",
+        "ConnectString": "endpoint=http://localhost:3320/api/;Header$x-api-key=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    }
+  ],
+  "ReportSections": [
+    {
+      "Type": "Continuous",
+      "Name": "ContinuousSection1",
+      "Page": {
+        "PageWidth": "8.27in",
+        "PageHeight": "11.69in",
+        "RightMargin": "0.7in",
+        "LeftMargin": "0.7in",
+        "TopMargin": "0.7in",
+        "BottomMargin": "0.7in",
+        "Columns": 1,
+        "ColumnSpacing": "0.5in"
+      },
+      "Width": "6.8465in",
+      "Body": {
+        "Height": "8.8834in",
+        "ReportItems": [
+          {
+            "Type": "textbox",
+            "Name": "TextBox1",
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Account Closure",
+            "Style": {
+              "FontSize": "16pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Center"
+            },
+            "Left": "1.9779in",
+            "Top": "0.0355in",
+            "Width": "2.5042in",
+            "Height": "0.3653in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox2",
+            "ZIndex": 1,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Account Details",
+            "Style": {
+              "FontSize": "14pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "TextDecoration": "Underline"
+            },
+            "Top": "0.7403in",
+            "Width": "2.2171in",
+            "Height": "0.3653in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox3",
+            "ZIndex": 2,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Account No",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Top": "1.1459in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox4",
+            "ZIndex": 3,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Account Name",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Top": "1.4931in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox5",
+            "ZIndex": 4,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Product Type",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Left": "0.0125in",
+            "Top": "1.8443in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox6",
+            "ZIndex": 5,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Currency",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Top": "2.1864in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox7",
+            "ZIndex": 6,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Branch",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Left": "0.0118in",
+            "Top": "2.5395in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table1",
+            "ZIndex": 7,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt", "VerticalAlign": "Middle" },
+            "TableColumns": [{ "Width": "3.9271in", "AutoWidth": "Proportional" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.2966in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox9",
+                        "DataElementName": "acct_link",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!acct_link.Value",
+                        "Style": {
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "VerticalAlign": "Middle"
+                        },
+                        "Width": "3.9271in",
+                        "Height": "0.2966in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8119in",
+            "Top": "1.1557in",
+            "Width": "3.9271in",
+            "Height": "0.2966in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table2",
+            "ZIndex": 9,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt", "VerticalAlign": "Middle" },
+            "TableColumns": [{ "Width": "3.9271in", "AutoWidth": "Proportional" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.3in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox11",
+                        "DataElementName": "account_descrp",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!account_descrp.Value",
+                        "Style": {
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "VerticalAlign": "Middle"
+                        },
+                        "Width": "3.9271in",
+                        "Height": "0.3in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8127in",
+            "Top": "1.4928in",
+            "Width": "3.9271in",
+            "Height": "0.3in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table3",
+            "ZIndex": 10,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt", "VerticalAlign": "Middle" },
+            "TableColumns": [{ "Width": "3.9271in", "AutoWidth": "Proportional" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.3in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox13",
+                        "DataElementName": "product_desc",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!product_desc.Value",
+                        "Style": {
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "VerticalAlign": "Middle"
+                        },
+                        "Width": "3.9271in",
+                        "Height": "0.3in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8121in",
+            "Top": "1.8407in",
+            "Width": "3.9271in",
+            "Height": "0.3in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table4",
+            "ZIndex": 11,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt", "VerticalAlign": "Middle" },
+            "TableColumns": [{ "Width": "3.9271in", "AutoWidth": "Proportional" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.32in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox15",
+                        "DataElementName": "currency_desc",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!currency_desc.Value",
+                        "Style": {
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "VerticalAlign": "Middle"
+                        },
+                        "Width": "3.9271in",
+                        "Height": "0.32in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8171in",
+            "Top": "2.1702in",
+            "Width": "3.9271in",
+            "Height": "0.32in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table5",
+            "ZIndex": 12,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt", "VerticalAlign": "Middle" },
+            "TableColumns": [{ "Width": "3.9271in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.3076in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox17",
+                        "DataElementName": "branch_desc",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!branch_desc.Value",
+                        "Style": {
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "VerticalAlign": "Middle"
+                        },
+                        "Width": "3.9271in",
+                        "Height": "0.3076in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8245in",
+            "Top": "2.5452in",
+            "Width": "3.9271in",
+            "Height": "0.3076in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox8",
+            "ZIndex": 13,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Closure Details",
+            "Style": {
+              "FontSize": "14pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "TextDecoration": "Underline"
+            },
+            "Top": "3.6222in",
+            "Width": "2.2171in",
+            "Height": "0.3653in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox10",
+            "ZIndex": 14,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Balance",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Top": "4.1201in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox12",
+            "ZIndex": 15,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Loan To be Paid Off",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Top": "4.4673in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox14",
+            "ZIndex": 16,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Total Treasury Product",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Top": "4.818in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox16",
+            "ZIndex": 17,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Uncleared Cheques to be Applied",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Top": "5.1604in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox18",
+            "ZIndex": 18,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Credit Accrued Interest",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Top": "5.5132in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox19",
+            "ZIndex": 19,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Debit Accrued Interest",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Left": "0.0236in",
+            "Top": "5.8686in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox20",
+            "ZIndex": 20,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Bulk Charges Held",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Left": "0.0236in",
+            "Top": "6.2158in",
+            "Width": "2.6671in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox21",
+            "ZIndex": 21,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Less Closure Charges",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Left": "0.0361in",
+            "Top": "6.5665in",
+            "Width": "2.6371in",
+            "Height": "0.3077in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table6",
+            "ZIndex": 22,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt" },
+            "TableColumns": [{ "Width": "3.28in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.32in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox23",
+                        "DataElementName": "balance",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!balance.Value",
+                        "Style": {
+                          "FontSize": "12pt",
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Format": "n2"
+                        },
+                        "Width": "3.28in",
+                        "Height": "0.32in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8084in",
+            "Top": "4.1126in",
+            "Width": "3.28in",
+            "Height": "0.32in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table7",
+            "ZIndex": 23,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt" },
+            "TableColumns": [{ "Width": "3.28in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.3in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox25",
+                        "DataElementName": "total_loans",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!total_loans.Value",
+                        "Style": {
+                          "FontSize": "12pt",
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Format": "n2",
+                          "TextAlign": "Left"
+                        },
+                        "Width": "3.28in",
+                        "Height": "0.3in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8143in",
+            "Top": "4.474in",
+            "Width": "3.28in",
+            "Height": "0.3in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table8",
+            "ZIndex": 24,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt" },
+            "TableColumns": [{ "Width": "3.28in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.31in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox27",
+                        "DataElementName": "total_treasury",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!total_treasury.Value",
+                        "Style": {
+                          "FontSize": "12pt",
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Format": "n2",
+                          "TextAlign": "Left"
+                        },
+                        "Width": "3.28in",
+                        "Height": "0.31in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8167in",
+            "Top": "4.8167in",
+            "Width": "3.28in",
+            "Height": "0.31in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table9",
+            "ZIndex": 25,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt" },
+            "TableColumns": [{ "Width": "3.28in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.31in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox29",
+                        "DataElementName": "uncleared_cheques",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!uncleared_cheques.Value",
+                        "Style": {
+                          "FontSize": "12pt",
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Format": "n2",
+                          "TextAlign": "Left"
+                        },
+                        "Width": "3.28in",
+                        "Height": "0.31in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8156in",
+            "Top": "5.1598in",
+            "Width": "3.28in",
+            "Height": "0.31in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table10",
+            "ZIndex": 26,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt" },
+            "TableColumns": [{ "Width": "3.28in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.31in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox31",
+                        "DataElementName": "credit_accrued_interest",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!credit_accrued_interest.Value",
+                        "Style": {
+                          "FontSize": "12pt",
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Format": "n2",
+                          "TextAlign": "Left"
+                        },
+                        "Width": "3.28in",
+                        "Height": "0.31in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.822in",
+            "Top": "5.5151in",
+            "Width": "3.28in",
+            "Height": "0.31in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table11",
+            "ZIndex": 27,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt" },
+            "TableColumns": [{ "Width": "3.28in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.3in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox33",
+                        "DataElementName": "debit_accrued_interest",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!debit_accrued_interest.Value",
+                        "Style": {
+                          "FontSize": "12pt",
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Format": "n2",
+                          "TextAlign": "Left"
+                        },
+                        "Width": "3.28in",
+                        "Height": "0.3in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8272in",
+            "Top": "5.8724in",
+            "Width": "3.28in",
+            "Height": "0.3in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table12",
+            "ZIndex": 28,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt" },
+            "TableColumns": [{ "Width": "3.28in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.31in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox35",
+                        "DataElementName": "bulk_charges",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!bulk_charges.Value",
+                        "Style": {
+                          "FontSize": "12pt",
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Format": "n2",
+                          "TextAlign": "Left"
+                        },
+                        "Width": "3.28in",
+                        "Height": "0.31in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8214in",
+            "Top": "6.2116in",
+            "Width": "3.28in",
+            "Height": "0.31in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table13",
+            "ZIndex": 29,
+            "DataSetName": "DataSet",
+            "Style": { "FontSize": "12pt" },
+            "TableColumns": [{ "Width": "3.28in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.31in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox37",
+                        "DataElementName": "less_closure_charges",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!less_closure_charges.Value",
+                        "Style": {
+                          "FontSize": "12pt",
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Format": "n2",
+                          "TextAlign": "Left"
+                        },
+                        "Width": "3.28in",
+                        "Height": "0.31in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.8221in",
+            "Top": "6.5643in",
+            "Width": "3.28in",
+            "Height": "0.31in"
+          },
+          {
+            "Type": "table",
+            "Name": "Table14",
+            "ZIndex": 30,
+            "DataSetName": "DataSet",
+            "TableColumns": [{ "Width": "1in" }],
+            "Details": {
+              "TableRows": [
+                {
+                  "Height": "0.32in",
+                  "TableCells": [
+                    {
+                      "Item": {
+                        "Type": "textbox",
+                        "Name": "TextBox39",
+                        "DataElementName": "sum",
+                        "CanGrow": true,
+                        "KeepTogether": true,
+                        "Value": "=Fields!sum.Value",
+                        "Style": {
+                          "PaddingLeft": "2pt",
+                          "PaddingRight": "2pt",
+                          "PaddingTop": "2pt",
+                          "PaddingBottom": "2pt",
+                          "Color": "=IIF(Fields!value.Value < 0, \"red\", \"green\")",
+                          "Format": "n2",
+                          "TextAlign": "Left",
+                          "TextDecoration": "Underline",
+                          "VerticalAlign": "Middle"
+                        },
+                        "Width": "1in",
+                        "Height": "0.32in"
+                      }
+                    }
+                  ]
+                }
+              ]
+            },
+            "Left": "2.81in",
+            "Top": "7.9203in",
+            "Width": "1in",
+            "Height": "0.32in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox22",
+            "ZIndex": 31,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "Total Balance to be Transferred",
+            "Style": {
+              "FontSize": "12pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left"
+            },
+            "Left": "0.027in",
+            "Top": "7.933in",
+            "Width": "2.5771in",
+            "Height": "0.3167in"
+          },
+          {
+            "Type": "textbox",
+            "Name": "TextBox24",
+            "ZIndex": 32,
+            "CanGrow": true,
+            "KeepTogether": true,
+            "Value": "I have reviewed and agreed to all the charges and instructions. I am ready to sign and proceed with the closure of my account",
+            "Style": {
+              "FontSize": "11pt",
+              "PaddingLeft": "2pt",
+              "PaddingRight": "2pt",
+              "PaddingTop": "2pt",
+              "PaddingBottom": "2pt",
+              "TextAlign": "Left",
+              "VerticalAlign": "Bottom"
+            },
+            "Left": "0.0253in",
+            "Top": "8.4375in",
+            "Width": "6.8212in",
+            "Height": "0.4459in"
+          }
+        ]
+      }
+    }
+  ],
+  "DataSets": [
+    {
+      "Name": "DataSet",
+      "Fields": [
+        { "Name": "acct_link", "DataField": "acct_link" },
+        { "Name": "account_descrp", "DataField": "account_descrp" },
+        { "Name": "prod_code", "DataField": "prod_code" },
+        { "Name": "product_desc", "DataField": "product_desc" },
+        { "Name": "currency_code", "DataField": "currency_code" },
+        { "Name": "currency_desc", "DataField": "currency_desc" },
+        { "Name": "branch_code", "DataField": "branch_code" },
+        { "Name": "branch_desc", "DataField": "branch_desc" },
+        { "Name": "balance", "DataField": "balance" },
+        { "Name": "total_loans", "DataField": "total_loans" },
+        { "Name": "total_treasury", "DataField": "total_treasury" },
+        { "Name": "uncleared_cheques", "DataField": "uncleared_cheques" },
+        { "Name": "credit_accrued_interest", "DataField": "credit_accrued_interest" },
+        { "Name": "debit_accrued_interest", "DataField": "debit_accrued_interest" },
+        { "Name": "bulk_charges", "DataField": "bulk_charges" },
+        { "Name": "less_closure_charges", "DataField": "less_closure_charges" },
+        { "Name": "sum", "DataField": "sum" }
+      ],
+      "Query": {
+        "DataSourceName": "Account_closure_confirmation_report",
+        "CommandText": "uri=/get-account-report/032111173401/;jpath=$.*"
+      },
+      "CaseSensitivity": "Auto",
+      "KanatypeSensitivity": "Auto",
+      "AccentSensitivity": "Auto",
+      "WidthSensitivity": "Auto"
+    }
+  ]
+}

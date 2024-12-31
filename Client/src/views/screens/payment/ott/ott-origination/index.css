@@ -1,0 +1,119 @@
+.achc--payers{
+    display: flex;
+    flex: 2;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .bic{
+    /* display: flex; */
+    flex: 2;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .achc--payer{
+    display: flex;
+    flex: 1;
+    /* justify-content: space-evenly; */
+    align-items: center;
+  }
+  .payer--fields{
+    display: flex;
+    flex: 0.7;
+    /* justify-content: center; */
+  
+    width: 100%;
+  }
+  .flex--1{
+    flex: 1;
+    display: flex;
+  }
+  just-flex{
+    flex:1
+  }
+  .space{
+    flex: 0.1;
+  }
+  .zoom{
+    zoom: 95%;
+  }
+  .zoom2{
+    zoom: 75%;
+  }
+  .beneficiary-account{
+    flex: 0.6;
+  }
+  .doc-number{
+    flex: 0.3
+  }
+  .payer--field{
+    display: flex;
+    flex: 0.7;
+    /* justify-content: space-evenly; */
+  }
+  .payer--btn{
+    flex: 0.3;
+    justify-content: flex-end;
+    /* display: flex; */
+  
+  }
+  .date--flex{
+    flex: 0.4;
+  }
+  .account-name{
+    flex: 0.7;
+  }
+  .amount{
+    flex: 0.5;
+  }
+  
+  .amount-disabled{
+    flex: 0.2;
+  }
+
+  
+ 
+
+.stepper {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    position: relative;
+  }
+  
+  .stepper::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    content: "";
+    width: calc(100% - 20px);
+    background: #4c4b4b;
+  }
+  
+  .stepper__item {
+    flex: 100%;
+    padding: 10px 10px 5px 20px;
+    /* background: repeating-linear-gradient(-65deg, #fff, #fff 20px, #fcfcfc 20px, #fcfcfc 40px); */
+    background: rgba(230, 232, 231, 0.953);
+    margin: 0 0 0 -17px;
+    -webkit-clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+  }
+  
+  .stepper__item.current {
+    background: rgb(84, 86, 86);
+  }
+  
+  .stepper__item.complete {
+    background: repeating-linear-gradient(-65deg, #fcfcfc, #fcfcfc 20px, #f4faf7 20px, #f4faf7 40px);
+  }
+  
+  .stepper__item:first-child {
+    padding: 20px;
+    -webkit-clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+  }
+  
+  .stepper__item:last-child {
+    -webkit-clip-path: polygon(20px 50%, 0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  

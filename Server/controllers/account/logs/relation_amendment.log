@@ -1,0 +1,573 @@
+[2024-12-10T09:43:09.992Z] [info] Starting relation amendment process for customer: CUST674960
+[2024-12-10T09:43:10.028Z] [info] Database connection established successfully
+[2024-12-10T09:43:10.029Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "CUST674960",
+    "rel": "202406200224",
+    "bra": "B001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin"
+  }
+}
+[2024-12-10T09:43:10.042Z] [info] Stored procedure executed successfully
+[2024-12-10T09:43:10.042Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "202406200224"
+  }
+}
+[2024-12-10T09:43:10.045Z] [info] Database connection closed successfully
+[2024-12-10T09:47:18.742Z] [info] Starting relation amendment process for customer: CUST674960
+[2024-12-10T09:47:18.781Z] [info] Database connection established successfully
+[2024-12-10T09:47:18.783Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "CUST674960",
+    "rel": "202406200224",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin"
+  }
+}
+[2024-12-10T09:47:18.787Z] [info] Stored procedure executed successfully
+[2024-12-10T09:47:18.788Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "202406200224"
+  }
+}
+[2024-12-10T09:47:18.791Z] [info] Database connection closed successfully
+[2024-12-10T09:49:33.228Z] [info] Starting relation amendment process for customer: 011348
+[2024-12-10T09:49:33.258Z] [info] Database connection established successfully
+[2024-12-10T09:49:33.259Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "011348",
+    "rel": "011348001",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin"
+  }
+}
+[2024-12-10T09:49:33.290Z] [info] Stored procedure executed successfully
+[2024-12-10T09:49:33.291Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "011348001"
+  }
+}
+[2024-12-10T09:49:33.296Z] [info] Database connection closed successfully
+[2024-12-10T09:54:06.508Z] [info] Starting relation amendment process for customer: 011348
+[2024-12-10T09:54:06.551Z] [info] Database connection established successfully
+[2024-12-10T09:54:06.551Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "011348",
+    "rel": "011348001",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin"
+  }
+}
+[2024-12-10T09:54:06.558Z] [info] Stored procedure executed successfully
+[2024-12-10T09:54:06.558Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "011348001",
+    "executionTime": "50ms"
+  }
+}
+[2024-12-10T09:54:06.561Z] [info] Database connection closed successfully
+[2024-12-10T09:56:28.314Z] [info] Starting relation amendment process for customer: 011348
+[2024-12-10T09:56:28.359Z] [info] Database connection established successfully
+[2024-12-10T09:56:28.360Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "011348",
+    "rel": "011348001",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin",
+    "time": "2024-12-10T09:56:28.360Z"
+  }
+}
+[2024-12-10T09:56:28.367Z] [info] Stored procedure executed successfully
+[2024-12-10T09:56:28.367Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "011348001",
+    "executionTime": "53ms",
+    "timestamp": "2024-12-10T09:56:28.367Z"
+  }
+}
+[2024-12-10T09:56:28.370Z] [info] Database connection closed successfully
+[2024-12-10T10:20:50.320Z] [info] Starting relation amendment process for customer: 011348
+[2024-12-10T10:20:50.356Z] [info] Database connection established successfully
+[2024-12-10T10:20:50.357Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "011348",
+    "rel": "011348001",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin",
+    "time": "2024-12-10T10:20:50.356Z"
+  }
+}
+[2024-12-10T10:20:50.363Z] [info] Stored procedure executed successfully
+[2024-12-10T10:20:50.364Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "011348001",
+    "executionTime": "44ms",
+    "timestamp": "2024-12-10T10:20:50.364Z"
+  }
+}
+[2024-12-10T10:20:50.366Z] [info] Database connection closed successfully
+[2024-12-10T10:41:35.010Z] [info] Starting relation amendment process for customer: 011348
+[2024-12-10T10:41:35.051Z] [info] Database connection established successfully
+[2024-12-10T10:41:35.052Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "011348",
+    "rel": "011348001",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin",
+    "time": "2024-12-10T10:41:35.052Z"
+  }
+}
+[2024-12-10T10:41:35.062Z] [info] Stored procedure executed successfully
+[2024-12-10T10:41:35.064Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "011348001",
+    "executionTime": "54ms",
+    "timestamp": "2024-12-10T10:41:35.064Z"
+  }
+}
+[2024-12-10T10:41:35.068Z] [info] Database connection closed successfully
+[2024-12-10T10:42:24.663Z] [info] Starting relation amendment process for customer: 011348
+[2024-12-10T10:42:24.706Z] [info] Database connection established successfully
+[2024-12-10T10:42:24.706Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "011348",
+    "rel": "011348001",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin",
+    "time": "2024-12-10T10:42:24.706Z"
+  }
+}
+[2024-12-10T10:42:24.712Z] [info] Stored procedure executed successfully
+[2024-12-10T10:42:24.713Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "011348001",
+    "executionTime": "50ms",
+    "timestamp": "2024-12-10T10:42:24.713Z"
+  }
+}
+[2024-12-10T10:42:24.715Z] [info] Database connection closed successfully
+[2024-12-10T11:26:36.244Z] [info] Starting relation amendment process for customer: 011348
+[2024-12-10T11:26:36.292Z] [info] Database connection established successfully
+[2024-12-10T11:26:36.293Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "011348",
+    "rel": "011348001",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin",
+    "time": "2024-12-10T11:26:36.293Z"
+  }
+}
+[2024-12-10T11:26:36.298Z] [info] Stored procedure executed successfully
+[2024-12-10T11:26:36.299Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "011348001",
+    "executionTime": "55ms",
+    "timestamp": "2024-12-10T11:26:36.299Z"
+  }
+}
+[2024-12-10T11:26:36.302Z] [info] Database connection closed successfully
+[2024-12-10T11:30:22.920Z] [info] Starting relation amendment process for customer: 005516
+[2024-12-10T11:30:22.969Z] [info] Database connection established successfully
+[2024-12-10T11:30:22.971Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "005516",
+    "rel": "005516001",
+    "bra": "001",
+    "postingDate": "10-DEC-2024",
+    "username": "admin",
+    "time": "2024-12-10T11:30:22.971Z"
+  }
+}
+[2024-12-10T11:30:22.998Z] [info] Stored procedure executed successfully
+[2024-12-10T11:30:22.999Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "005516001",
+    "executionTime": "78ms",
+    "timestamp": "2024-12-10T11:30:22.999Z"
+  }
+}
+[2024-12-10T11:30:23.001Z] [info] Database connection closed successfully
+[2024-12-10T14:48:47.775Z] [info] Starting relation amendment process for customer: 
+[2024-12-10T14:48:47.813Z] [info] Database connection established successfully
+[2024-12-10T14:48:47.814Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "",
+    "rel": "",
+    "bra": "",
+    "postingDate": "12/10/2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-10T14:48:47.814Z"
+  }
+}
+[2024-12-10T14:48:47.846Z] [error] {
+  "message": "Error occurred during relation amendment",
+  "error": {
+    "message": "ORA-01843: not a valid month\nORA-06512: at line 3",
+    "stack": "Error: ORA-01843: not a valid month\nORA-06512: at line 3\n    at async amendRelation (C:\\COOPTECH\\server\\controllers\\account\\saving_data__call_procedures\\static_amendment_controllers\\final_update_controllers\\relationController.js:153:9)",
+    "errorNum": 1843,
+    "offset": 31,
+    "executionTime": "71ms",
+    "timestamp": "2024-12-10T14:48:47.846Z"
+  }
+}
+[2024-12-10T14:48:47.846Z] [error] {
+  "message": "Error response sent",
+  "data": {
+    "error": "Internal Server Error",
+    "details": "ORA-01843: not a valid month\nORA-06512: at line 3",
+    "executionTime": "71ms",
+    "timestamp": "2024-12-10T14:48:47.846Z"
+  }
+}
+[2024-12-10T14:48:47.854Z] [info] Database connection closed successfully
+[2024-12-10T14:50:19.262Z] [info] Starting relation amendment process for customer: 
+[2024-12-10T14:50:19.301Z] [info] Database connection established successfully
+[2024-12-10T14:50:19.301Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "",
+    "rel": "",
+    "bra": "",
+    "postingDate": "12/10/2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-10T14:50:19.301Z"
+  }
+}
+[2024-12-10T14:50:19.312Z] [error] {
+  "message": "Error occurred during relation amendment",
+  "error": {
+    "message": "ORA-01843: not a valid month\nORA-06512: at line 3",
+    "stack": "Error: ORA-01843: not a valid month\nORA-06512: at line 3\n    at async amendRelation (C:\\COOPTECH\\server\\controllers\\account\\saving_data__call_procedures\\static_amendment_controllers\\final_update_controllers\\relationController.js:153:9)",
+    "errorNum": 1843,
+    "offset": 31,
+    "executionTime": "50ms",
+    "timestamp": "2024-12-10T14:50:19.312Z"
+  }
+}
+[2024-12-10T14:50:19.312Z] [error] {
+  "message": "Error response sent",
+  "data": {
+    "error": "Internal Server Error",
+    "details": "ORA-01843: not a valid month\nORA-06512: at line 3",
+    "executionTime": "50ms",
+    "timestamp": "2024-12-10T14:50:19.312Z"
+  }
+}
+[2024-12-10T14:50:19.315Z] [info] Database connection closed successfully
+[2024-12-10T15:01:26.676Z] [info] Starting relation amendment process for customer: 005516
+[2024-12-10T15:01:26.717Z] [info] Database connection established successfully
+[2024-12-10T15:01:26.718Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "005516",
+    "rel": "005516001",
+    "bra": "",
+    "postingDate": "12/10/2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-10T15:01:26.718Z"
+  }
+}
+[2024-12-10T15:01:26.721Z] [error] {
+  "message": "Error occurred during relation amendment",
+  "error": {
+    "message": "ORA-01843: not a valid month\nORA-06512: at line 3",
+    "stack": "Error: ORA-01843: not a valid month\nORA-06512: at line 3\n    at async amendRelation (C:\\COOPTECH\\server\\controllers\\account\\saving_data__call_procedures\\static_amendment_controllers\\final_update_controllers\\relationController.js:153:9)",
+    "errorNum": 1843,
+    "offset": 31,
+    "executionTime": "45ms",
+    "timestamp": "2024-12-10T15:01:26.721Z"
+  }
+}
+[2024-12-10T15:01:26.721Z] [error] {
+  "message": "Error response sent",
+  "data": {
+    "error": "Internal Server Error",
+    "details": "ORA-01843: not a valid month\nORA-06512: at line 3",
+    "executionTime": "45ms",
+    "timestamp": "2024-12-10T15:01:26.721Z"
+  }
+}
+[2024-12-10T15:01:26.724Z] [info] Database connection closed successfully
+[2024-12-11T12:44:11.910Z] [info] Starting relation amendment process for customer: 059427
+[2024-12-11T12:44:11.950Z] [info] Database connection established successfully
+[2024-12-11T12:44:11.951Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "059427",
+    "rel": "202406200230",
+    "bra": "",
+    "postingDate": "11-Dec-2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-11T12:44:11.951Z"
+  }
+}
+[2024-12-11T12:44:11.960Z] [error] {
+  "message": "Error occurred during relation amendment",
+  "error": {
+    "message": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "stack": "Error: ORA-01861: literal does not match format string\nORA-06512: at line 3\n    at async amendRelation (C:\\COOPTECH\\server\\controllers\\account\\saving_data__call_procedures\\static_amendment_controllers\\final_update_controllers\\relationController.js:153:9)",
+    "errorNum": 1861,
+    "offset": 31,
+    "executionTime": "49ms",
+    "timestamp": "2024-12-11T12:44:11.959Z"
+  }
+}
+[2024-12-11T12:44:11.960Z] [error] {
+  "message": "Error response sent",
+  "data": {
+    "error": "Internal Server Error",
+    "details": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "executionTime": "49ms",
+    "timestamp": "2024-12-11T12:44:11.960Z"
+  }
+}
+[2024-12-11T12:44:11.962Z] [info] Database connection closed successfully
+[2024-12-11T12:57:42.677Z] [info] Starting relation amendment process for customer: 059427
+[2024-12-11T12:57:42.722Z] [info] Database connection established successfully
+[2024-12-11T12:57:42.722Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "059427",
+    "rel": "202406200230",
+    "bra": "",
+    "postingDate": "11-Dec-2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-11T12:57:42.722Z"
+  }
+}
+[2024-12-11T12:57:42.725Z] [error] {
+  "message": "Error occurred during relation amendment",
+  "error": {
+    "message": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "stack": "Error: ORA-01861: literal does not match format string\nORA-06512: at line 3\n    at async amendRelation (C:\\COOPTECH\\server\\controllers\\account\\saving_data__call_procedures\\static_amendment_controllers\\final_update_controllers\\relationController.js:153:9)",
+    "errorNum": 1861,
+    "offset": 31,
+    "executionTime": "48ms",
+    "timestamp": "2024-12-11T12:57:42.725Z"
+  }
+}
+[2024-12-11T12:57:42.725Z] [error] {
+  "message": "Error response sent",
+  "data": {
+    "error": "Internal Server Error",
+    "details": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "executionTime": "48ms",
+    "timestamp": "2024-12-11T12:57:42.725Z"
+  }
+}
+[2024-12-11T12:57:42.727Z] [info] Database connection closed successfully
+[2024-12-11T13:05:35.973Z] [info] Starting relation amendment process for customer: 059427
+[2024-12-11T13:05:36.008Z] [info] Database connection established successfully
+[2024-12-11T13:05:36.009Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "059427",
+    "rel": "202406200230",
+    "bra": "",
+    "postingDate": "11-Dec-2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-11T13:05:36.009Z"
+  }
+}
+[2024-12-11T13:05:36.011Z] [error] {
+  "message": "Error occurred during relation amendment",
+  "error": {
+    "message": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "stack": "Error: ORA-01861: literal does not match format string\nORA-06512: at line 3\n    at async amendRelation (C:\\COOPTECH\\server\\controllers\\account\\saving_data__call_procedures\\static_amendment_controllers\\final_update_controllers\\relationController.js:153:9)",
+    "errorNum": 1861,
+    "offset": 31,
+    "executionTime": "38ms",
+    "timestamp": "2024-12-11T13:05:36.011Z"
+  }
+}
+[2024-12-11T13:05:36.012Z] [error] {
+  "message": "Error response sent",
+  "data": {
+    "error": "Internal Server Error",
+    "details": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "executionTime": "38ms",
+    "timestamp": "2024-12-11T13:05:36.012Z"
+  }
+}
+[2024-12-11T13:05:36.014Z] [info] Database connection closed successfully
+[2024-12-11T13:12:38.207Z] [info] Starting relation amendment process for customer: 059427
+[2024-12-11T13:12:38.240Z] [info] Database connection established successfully
+[2024-12-11T13:12:38.241Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "059427",
+    "rel": "202406200230",
+    "bra": "",
+    "postingDate": "11-Dec-2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-11T13:12:38.241Z"
+  }
+}
+[2024-12-11T13:12:38.244Z] [error] {
+  "message": "Error occurred during relation amendment",
+  "error": {
+    "message": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "stack": "Error: ORA-01861: literal does not match format string\nORA-06512: at line 3\n    at async amendRelation (C:\\COOPTECH\\server\\controllers\\account\\saving_data__call_procedures\\static_amendment_controllers\\final_update_controllers\\relationController.js:153:9)",
+    "errorNum": 1861,
+    "offset": 31,
+    "executionTime": "36ms",
+    "timestamp": "2024-12-11T13:12:38.244Z"
+  }
+}
+[2024-12-11T13:12:38.244Z] [error] {
+  "message": "Error response sent",
+  "data": {
+    "error": "Internal Server Error",
+    "details": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "executionTime": "36ms",
+    "timestamp": "2024-12-11T13:12:38.244Z"
+  }
+}
+[2024-12-11T13:12:38.246Z] [info] Database connection closed successfully
+[2024-12-11T15:09:10.846Z] [info] Starting relation amendment process for customer: 059427
+[2024-12-11T15:09:10.879Z] [info] Database connection established successfully
+[2024-12-11T15:09:10.880Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "059427",
+    "rel": "202406200230",
+    "bra": "",
+    "postingDate": "11-Dec-2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-11T15:09:10.880Z"
+  }
+}
+[2024-12-11T15:09:10.883Z] [error] {
+  "message": "Error occurred during relation amendment",
+  "error": {
+    "message": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "stack": "Error: ORA-01861: literal does not match format string\nORA-06512: at line 3\n    at async amendRelation (C:\\COOPTECH\\server\\controllers\\account\\saving_data__call_procedures\\static_amendment_controllers\\final_update_controllers\\relationController.js:153:9)",
+    "errorNum": 1861,
+    "offset": 31,
+    "executionTime": "36ms",
+    "timestamp": "2024-12-11T15:09:10.883Z"
+  }
+}
+[2024-12-11T15:09:10.883Z] [error] {
+  "message": "Error response sent",
+  "data": {
+    "error": "Internal Server Error",
+    "details": "ORA-01861: literal does not match format string\nORA-06512: at line 3",
+    "executionTime": "36ms",
+    "timestamp": "2024-12-11T15:09:10.883Z"
+  }
+}
+[2024-12-11T15:09:10.893Z] [info] Database connection closed successfully
+[2024-12-11T15:11:51.175Z] [info] Starting relation amendment process for customer: 059427
+[2024-12-11T15:11:51.224Z] [info] Database connection established successfully
+[2024-12-11T15:11:51.225Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "059427",
+    "rel": "202406200230",
+    "bra": "",
+    "postingDate": "11-Dec-2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-11T15:11:51.225Z"
+  }
+}
+[2024-12-11T15:11:51.274Z] [info] Stored procedure executed successfully
+[2024-12-11T15:11:51.277Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "202406200230",
+    "executionTime": "102ms",
+    "timestamp": "2024-12-11T15:11:51.277Z"
+  }
+}
+[2024-12-11T15:11:51.280Z] [info] Database connection closed successfully
+[2024-12-12T07:56:57.747Z] [info] Starting relation amendment process for customer: 005517
+[2024-12-12T07:56:57.791Z] [info] Database connection established successfully
+[2024-12-12T07:56:57.793Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "005517",
+    "rel": "005517001",
+    "bra": "",
+    "postingDate": "12-Dec-2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-12T07:56:57.793Z"
+  }
+}
+[2024-12-12T07:56:57.838Z] [info] Stored procedure executed successfully
+[2024-12-12T07:56:57.840Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "005517001",
+    "executionTime": "93ms",
+    "timestamp": "2024-12-12T07:56:57.840Z"
+  }
+}
+[2024-12-12T07:56:57.858Z] [info] Database connection closed successfully
+[2024-12-12T08:19:47.851Z] [info] Starting relation amendment process for customer: 005517
+[2024-12-12T08:19:47.889Z] [info] Database connection established successfully
+[2024-12-12T08:19:47.890Z] [info] {
+  "message": "Executing stored procedure with parameters",
+  "data": {
+    "customerNo": "005517",
+    "rel": "005517001",
+    "bra": "",
+    "postingDate": "12-Dec-2024",
+    "username": "UNIONADMIN",
+    "time": "2024-12-12T08:19:47.890Z"
+  }
+}
+[2024-12-12T08:19:47.900Z] [info] Stored procedure executed successfully
+[2024-12-12T08:19:47.901Z] [info] {
+  "message": "Success response sent",
+  "data": {
+    "message": "Relation amended successfully",
+    "relationNo": "005517001",
+    "executionTime": "50ms",
+    "timestamp": "2024-12-12T08:19:47.901Z"
+  }
+}
+[2024-12-12T08:19:47.904Z] [info] Database connection closed successfully

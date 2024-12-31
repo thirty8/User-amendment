@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e0f2fe;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.react-tel-input .country-list {
+  max-height: 150px; /* Set the maximum height for the dropdown */
+  overflow-y: auto; /* Add vertical scroll if the content overflows */
+}
+
+/* edit phone input field   */
+.editedPhoneInputField > .form-control {
+  background-color: rgb(214, 174, 27) !important;
+}
+/* edit input field   */
+.editedInputField {
+  background-color: rgb(214, 174, 27) !important;
+}
+
+/* Target the Ant Design Drawer header */
+.ant-drawer-header {
+  font-family: "Poppins", sans-serif;
+  background-color: #013281 !important; /* Set header background color */
+  color: white !important; /* Set header text color */
+  height: 45px;
+}
+
+.ant-drawer-title {
+  color: white !important; /* Ensure title text inside header is white */
+  font-family: "Poppins", sans-serif;
+}
+
+/* Apply Poppins font to Collapse headers */
+.ant-collapse-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500; /* Regular weight */
+  color: #808080 !important;
+  font-size: 15px;
+}

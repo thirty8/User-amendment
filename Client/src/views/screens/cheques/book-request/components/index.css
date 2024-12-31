@@ -1,0 +1,117 @@
+.full__div {
+  flex: 0.7;
+  padding: 36px 0px;
+  /* box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  -webkit-box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  -moz-box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75); */
+  border-radius: 5px;
+  background-color: white;
+  position: relative;
+}
+.stopped {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  -webkit-box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  -moz-box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  border-radius: 5px;
+  padding: 45px 10px;
+}
+.inner__stopped {
+  width: 80%;
+  padding: 10px 0;
+}
+.inner__div {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1;
+  align-items: center;
+}
+.first__inner {
+  flex: 0.4;
+}
+.second__inner {
+  flex: 0.87;
+}
+.seconds__inner {
+  flex: 0.24;
+  width: 30%;
+}
+.column {
+  flex: 0.45;
+}
+.thatone {
+  display: flex;
+  justify-content: space-evenly;
+}
+.padding {
+  padding: 20px 10px;
+}
+.account__details {
+  flex: 0.3;
+  /* box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  -webkit-box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75);
+  -moz-box-shadow: 0px 1px 16px 0px rgba(112, 112, 112, 0.75); */
+  border-radius: 5px;
+  margin-left: 10px;
+}
+.dummy__control {
+  flex: 0.6;
+}
+
+.dummy__controls {
+  flex: 0.1;
+}
+.outer__div {
+  display: flex;
+  flex: 1;
+  margin-bottom: 10px;
+  /* background-color: white; */
+}
+.request__id {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  /* padding-bottom: 10px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 4px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .outer__div {
+    display: flex;
+    flex-direction: column;
+  }
+  .account__details {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .inner__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .first__inner {
+    width: 100%;
+  }
+  .hidden {
+    display: none;
+  }
+  .seconds__inner {
+    width: 100%;
+  }
+  .responsive {
+    display: flex;
+    flex-direction: column;
+  }
+  .inner_elements {
+    width: 100%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "powershell -command \"while ($true) { nodemon app.js --exitcrash; echo 'Server crashed. Restarting server...'; Start-Sleep -Seconds 1; }\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "cross-fetch": "^3.1.5",
+    "crypto": "^1.0.1",
+    "device-detector-js": "^3.0.3",
+    "dom-parser": "^0.1.6",
+    "dotenv": "^16.3.1",
+    "express": "^4.17.3",
+    "html-react-parser": "^3.0.9",
+    "ip": "^1.1.8",
+    "jszip": "^3.10.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "node-cron": "^3.0.2",
+    "node-fetch": "^3.3.0",
+    "nodemon": "^3.1.9",
+    "oracledb": "^5.5.0",
+    "os": "^0.1.2"
+  }
+}

@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'SegoePrint';
+    src: url('../../scss/partials/font/fonts/segoepr.ttf') format('truetype'); /* Update the path and format as per your font files */
+  }
+  
+  /* You can define additional font styles here */
+  
