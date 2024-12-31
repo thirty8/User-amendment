@@ -4,7 +4,7 @@ import "./index.css";
 import { IoMdClose } from "react-icons/io";
 import { IoIosSearch } from "react-icons/io";
 
-const ListOfValue = ({
+const  ListOfValue = ({
   id,
   labelWidth,
   inputWidth,
